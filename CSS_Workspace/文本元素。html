@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文本元素</title>
+	<link rel="stylesheet" type="text/css" href="text.css">
+</head>
+<body>
+	<span>
+		<p>i like it!                                                                         测试空白行           不知道擢用如阿莱疯狂abcdkjladfaklfhaskldfhakldsfhaskfhalskdfhakgha<b>rlkghadflsghalskdfdhslghalkghakghalhgalhdg
+		afl;ajfaladfj;alsfgalshgaksgahafdasdfasdfasf</p>
+	</span>
+</body>
+</html>

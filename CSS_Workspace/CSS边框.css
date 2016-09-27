@@ -1,0 +1,17 @@
+@charset="utf-8";
+
+#a{
+	/*border-width: 10px;*/
+	/*设置边框样式*/
+	/*border-style: solid;*/
+	/*border-style: dashed;*/
+	/*border-style: dotted;*/
+	/*border-style: double;*/
+	/*border-style: inset;*/
+	/*border-style: groove;*/
+	/*border: ridge;*/
+	/*简写各种设置*/
+	border: 10px solid #E12DC9;
+	/*柔化四个角*/
+	border-radius: 10px;
+}

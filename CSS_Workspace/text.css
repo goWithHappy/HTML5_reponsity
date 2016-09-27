@@ -1,0 +1,38 @@
+@charset="utf-8";
+
+span>p{
+	background: #50EC7F;
+	color: #C6DC4D;
+	/*text-decoration: underline;*/
+	/*text-decoration: overline;*/
+	/*text-decoration: line-through;*/
+	text-decoration: blink;
+
+	/*大小写转换*/
+	/*text-transform: capitalize;*/
+	/*text-transform: uppercase;*/
+	text-transform: lowercase;
+	/*设置阴影*/
+	text-shadow: 5px,5xp,3px,black;
+	/*设置文字居中方式,注意待有段落的时候才能说用居中的方式*/
+	/*text-align: center;*/
+	/*text-align: right;*/
+	/*text-align: satart;*/
+	/*text-align: end;*/
+	text-align: justify;
+	/*测试空白的排版方式*/
+	/*white-space: normal;*/
+	/*white-space: nowrap;*/
+	/*white-space: pre;*/
+	white-space: pre-line;
+	/*white-space: pre-wrap;*/
+	/*设置字间距*/
+	/*word-spacing: normal;*/
+	word-spacing: 100px;
+	/*设置行高*/
+	line-height: 150%;
+	/*这只文本缩进*/
+	text-indent: 100px;
+	/*设置单词换行*/
+	word-wrap:break-word;
+}

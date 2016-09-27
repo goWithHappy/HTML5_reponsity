@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表格元素测试</title>
+</head>
+<body>
+<!-- border为table设置表格边框 -->
+	<table border="1">
+		<tr>
+			<td>张三</td>
+			<td>男</td>
+			<td>未婚</td>
+		</tr>
+		<tr>
+			<td>李四</td>
+			<td>女</td>
+			<td>已婚</td>
+		</tr>
+	</table>
+	<table border="1" style="width: 300px;">
+		<tr>
+			<th>姓名</th>
+			<th>性别</th>
+			<th>婚姻</th>
+		</tr>
+		<tr>
+			<td>张三</td>
+			<td>男</td>
+			<td>未婚</td>
+		</tr>
+		<tr>
+			<td>李四</td>
+			<td>女</td>
+			<td>已婚</td>
+		</tr>
+	</table>
+	<!-- thread添加表头 -->
+	<table border="1">
+		<caption>员工调查表</caption>
+		<colgroup style="background:white;"span="1"></colgroup>
+		<colgroup style="background:red" span="1"></colgroup>
+		<thead>
+			<tr>
+				<th>姓名</th>
+				<th>性别</th>
+				<th>婚姻</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>李明</td>
+				<td>男</td>
+				<td>已婚</td>
+			</tr>
+			<tr>
+				<td>王芳</td>
+				<td>女</td>
+				<td>未婚</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>test</td>
+			</tr>
+		</tfoot>
+	</table>
+
+	<table border="1" style="width: 300px;">
+		<colgroup>
+			<col>
+			<col style="background:blue" span="1">
+		</colgroup>
+		<tr>
+			<th>姓名</th>
+			<th>性别</th>
+			<th>婚姻</th>
+		</tr>
+		<tr>
+			<td>张三</td>
+			<td>男</td>
+			<td>未婚</td>
+		</tr>
+		<tr>
+			<td>李四</td>
+			<td>女</td>
+			<td>已婚</td>
+		</tr>
+	</table>
+</body>
+</html>

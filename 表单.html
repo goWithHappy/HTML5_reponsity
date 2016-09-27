@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单信息</title>
+</head>
+<body>
+	<form method="post">
+		<label>用户名：</label>
+		<input name="text" name="userName" autofocus="autofocus" width="20" placeholder="pelease input username" list="footlist" disabled>
+		<label>密码：</label>
+		<input type="password" name="pas" autocomplete="on">
+		<label>数字框</label>
+		<input type="number" name="num" min="3" max="5" step="2">		
+		<label>复选框</label>
+		<input type="checkbox" name="test">
+		<label>搜索框</label>
+		<input type="search" name="">
+		<label>日期框</label>
+		<input type="date" name="data">
+		<input type="month" name="">
+		<input type="time" name="">
+		<input type="week" name="">
+		<input type="datatime-local" name="">
+		<label>图片</label>
+		<input type="image" name="im" src="/backup.jpg" alt="sorry" size="10">
+	</form>
+	<datalist id="footlist">
+		<option value="苹果">苹果</option>		
+		<option>香蕉</option>
+		<option>橘子</option>
+	</datalist>
+	<label>email</label>
+	<input type="email" name="">
+	<label>tel</label>
+	<input type="tel" name="">
+	<label>url</label>
+	<input type="url" name="">
+	<label>图片控件</label>
+	<input type="file" name="" required="required">
+	<label>选择框</label>
+	<select>
+		<option>item1</option>
+		<option>item2</option>
+		<option>item3</option>
+		<optgroup label="水果类">
+			<option value="1">苹果</option>
+			<option value="2" selected>橘子</option>
+			<option value="3" label="香蕉">香蕉</option>
+		</optgroup>
+	</select>
+	<label>多行文本</label>
+	<textarea></textarea>
+	<label>output</label>
+	<br>
+	<form oninput="res.value = num1.valueAsNumber * num2.valueAsNumber">
+	<input type="number" id="num1"> x <input type="number" id="num2">
+	<output for="num1 num2" name="res">
+	<br>
+	<label>使用正则表达式进行验证</label>
+	<input type="text" name="" placeholder="请输入号码" pattern="^[\d]{2,4}\-[\d]{6,8}$">
+</form>
+</body>
+</html>

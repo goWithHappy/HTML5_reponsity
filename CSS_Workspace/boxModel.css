@@ -1,0 +1,44 @@
+/*盒模式对应的css*/
+@charset="utf-8";
+
+#a {
+	background: silver;
+	width: 200px;
+	height: 200px;
+	/*设置内边距*/
+	padding: 50px;
+	/*设置外边距*/
+	margin: 20px;
+}
+#b {
+background: gray;
+	width: 80%;
+	height: 80%;
+	/*设置外边距*/
+	padding: 20px;
+}
+
+table{
+	/*visibility:visible;*/
+	/*visibility: hidden;*/
+	visibility: collapse;
+}
+body>span:nth-of-type(2){
+	background: #3B259D;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+}
+/*设置浮动*/
+#a{
+	background: #E84267;
+	float: right;
+}
+#b{
+	background: #251D9E;
+	float: right;
+}
+#c{
+	background: #CCDE3A;
+	float: left;
+}

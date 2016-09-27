@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/**{
+	color: #145A29;
+	font-size:30px;
+}*/
+/*#abc {
+	color: #F92323;
+	font-size: 20px;
+}
+b.test {
+	color: #2518ED;
+}
+
+.style1{
+	color: #EB1F1F;
+}
+.style2{
+	font-size: 30px;
+}
+/*属性选择器*/
+/*[type="password"]{
+	border: 1px solid red;
+	color: #1C25AF;
+}
+/*匹配属性开头*/
+/*[href^="http"]{
+	color: #7E4005;
+}*/
+
+/*分组选择器*/
+/*p,b{
+	color: red;
+}*/
+/*后代选择器*/
+/*p b{
+	color: #0C3DB9;
+}*/
+/*相邻兄弟选择器*/
+/*b~b{
+	color: #1D18F9;
+}*/
+/*块级首行选择器*/
+/*::first-line{
+	color: #0A0EE5;
+	font: 300px;
+};*/
+/*块级首字母*/
+/*::first-letter{
+	color: #21F23A;
+};*/
+/*在文本前插入*/
+span::before{
+	content: 'add first';
+};
+/*在文本后插入 和before不能同时使用*/
+span::after{
+	content: 'add after'
+};

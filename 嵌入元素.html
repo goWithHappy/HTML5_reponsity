@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>嵌入元素</title>
+</head>
+<body>
+	<img src="test.jpg" width="100" height="50" alt="sorry!图片找不到！">
+	<br>
+
+	<img src="backup.jpg" border="0" usemap="#planetmap" alt="Planets"  width="100" height="50"/>
+	<map name="planetmap" id="planetmap">
+	  <area shape="circle" coords="180,139,14" href ="http://www.baidu.com" alt="Venus" />
+	  <area shape="circle" coords="129,161,10" href ="http://www.sina.com" alt="Mercury" />
+	  <area shape="rect" coords="0,0,110,260" href ="http://www.91shushu.com" alt="Sun" />
+	</map>
+	<br>
+
+	<!--下边两个可以控制iframe的显示内容-->
+	<!-- <a href="Test.html" target="in" width="100" height="100">index</a> |
+	<a href="http://www.baidu.com" target="in">百度</a>
+	<iframe 
+		src="http://www.ycku.com" width="600" height="500"
+		name="in">
+	</iframe> -->
+	
+	<!-- <embed src="http://www.tudou.com/v/i4ZZvFwfluI/&bid=05&rpid=50797543&resourceId=50797543_05_05_99/v.swf" type="application/x-shockwave-flash"width="480" height="400">test </embed>
+	<br> -->
+	<progress value="100" max="20">
+	
+	<meter min="0" max="100" low="60" high="90" optimum="100" value="91">91分</meter>
+</body>
+</html

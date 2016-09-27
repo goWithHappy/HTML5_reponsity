@@ -1,0 +1,19 @@
+@charset=utf-8;
+
+div{
+	width: 200px;
+	height: 200px;
+	border:1px solid green;
+	background-color: white;
+	border:1px solid black;
+	transition-duration: 1s;
+	
+	transition-property: background-color,color,margin-left;
+	transition-timing-function: steps(5,start);
+}
+
+div:hover{
+	background-color: black;
+	color: white;
+	margin-left: 100px;
+}

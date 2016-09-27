@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*书写时后边大括号内不能有分号*/
+/*root选择器*/
+:root{
+	border: 1px solid red;
+}
+/*选择第一个元素*/
+ul>li:first-child{
+	color: #5914E8;
+}
+/*选择最后一个元素*/
+ul>li:last-child{
+	color: #CB172D;
+}
+/*选择只有一个子元素的那个元素*/
+ul>li:only-child{
+	color: #EE5F14;
+}
+/*选择只有一个指定类型的子元素*/
+div>p:only-of-type{
+	color: #F01F1F;
+}
+/*选择子元素的第二个元素*/
+ol>li:nth-child(2){
+	color: #9A20F1;
+}
+/*选择倒数第一个元素*/
+ol>li:nth-last-child(1){
+	color: #20F1BC;
+}

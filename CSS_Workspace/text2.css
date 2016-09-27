@@ -1,0 +1,28 @@
+@charset="utf-8";
+
+@font-face {
+font-family: abc;
+src: url('test.TTF');
+}
+p{
+	/*设置字体大小*/
+	/*font-size: xx-small;*/
+	/*font-size: x-small;*/
+	/*font-size: small;*/
+	/*font-size: medium;*/
+	/*font-size: larger;*/
+	/*font-size: 50px;*/
+	font-size: 300%;
+	/*设置小写字母以小型大写字母显示*/
+	font-variant: small-caps;
+	/*设置字体是否倾斜*/
+	font-style: italic;
+	/*设置字体的粗细*/
+	/*font-weight: bolder;*/
+	/*font-weight: lighter;*/
+	font-weight: 100;
+	/*font-family: consolas,童体毛笔字体,微软雅黑;*/
+	/*设置web字体*/
+	font-family: abc;
+}
+
