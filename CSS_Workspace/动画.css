@@ -5,4 +5,35 @@ div{
 	height: 200px;
 	background-color: white;
 	border:1px solid green;
+	animation-name: myani2;
+	/*设置动画播放的时间*/
+	animation-duration: 1s;
+	/*设置播放次数*/
+	animation-iteration-count: 3;
+}
+
+/*创建动画*/
+@keyframes myani{
+	0%{
+		background-color: white;
+		margin-left: 0px;
+	}
+	50%{
+		background-color: black;
+		margin-left: 100px;
+	}
+	100%{
+		background-color: white
+		margin-left:0px;
+	}
+}
+
+@keyframes myani2 {
+	from {
+	background-color: white;
+	margin-left:0px;
+	}
+	to {
+	background-color: black;
+	margin-left:100px;
 }
