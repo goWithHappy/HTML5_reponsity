@@ -1,0 +1,150 @@
+@charset=utf-8;
+
+/*装饰search*/
+#search{
+	min-width: 1263px;
+	width: 100%;
+	height: 600px;
+	/*设置图片不重复显示并且永远居中*/
+	background: url(../img/search.jpg) no-repeat center;
+	position: relative;
+}
+/*设置search框的背景*/
+#search .center{
+	width: 600px;
+	height: 60px;
+	background: black;
+	/*通过想对父元素进行居中处理*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	/*通过外边距减去自身长度的一半*/
+	margin: -30px 0 0 -300px;
+	/*透明化*/
+	opacity: 0.6;
+	/*设置圆角*/
+	border-radius: 10px;
+
+}
+/*设置输入框*/
+#search .search{
+	width: 465px;
+	height: 54px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 -300px;
+	/*设置字体颜色*/
+	color: #black;
+	border:1px solid #666;
+	/*设置圆角*/
+	border-radius: 10px;
+	font-size: 24px;
+	padding:0 10px;
+	outline: none;
+}
+/*设置button的样式*/
+#search .button{
+	width: 120px;
+	height: 54px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 180px;
+	color: #666;
+	border:1px solid #666;
+	border-radius: 10px;
+	font-size: 24px;
+	outline: none;
+	cursor: pointer;
+	/*加粗*/
+	font-weight: bold;
+}
+
+/*设置旅游区样式*/
+#tour{
+	width: 1263px;
+	height: 1200px;
+	margin: 0 auto;
+}
+#tour .center{
+	/*设置字体居中*/
+	text-align: center;
+
+}
+
+#tour .center h2{
+	font-size: 45px;
+	/*设置字体间距*/
+	letter-spacing: 2px;
+	color: #666;
+	margin: 10px 0;
+}
+#tour .center p{
+	color: #666;
+	margin: 10px 0;
+	text-align:center;
+}
+
+#tour figure{
+	border:1px solid #ddd;
+	/*解决展示问题*/
+	display: inline-block;
+	padding: 4px;
+	/*做成圆角矩形*/
+	border-radius: 4px;
+	margin: 15px 12px;
+
+	max-width: 380px;
+	text-align: left;
+	position: relative;
+}
+#tour figure img{
+	vertical-align: middle;
+	position: relative;
+}
+#tour figure figcaption{
+	text-align: left;
+	color:#777;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding: 7px 0 5px 0;
+}
+#tour .title{
+	color: #333;
+	/*消除加粗*/
+	font-weight: normal;
+}
+#tour .sat{
+	float: right;
+	font-size: 14px;
+	color: #999;
+	font-style: normal;
+	position: relative;
+	top: 5px;
+	right: 5px;
+}
+#tour .price{
+	color: #f60;
+	font-size: 14px;
+}
+#tour strong{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+/*设置出境长线*/
+#tour .type{
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	background-color:#97AE27; 
+	position: absolute;
+	top: 4px;
+	left: 3px;
+}

@@ -10,6 +10,8 @@ div{
 	animation-duration: 1s;
 	/*设置播放次数*/
 	animation-iteration-count: 3;
+	/*设置动画暂停*/
+	/*animation-play-state: paused;*/
 }
 
 /*创建动画*/

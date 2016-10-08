@@ -1,0 +1,115 @@
+/*将重复的css修饰放到这里*/
+@charset=utf-8;
+
+/*消除一些元素的外边距和内边距*/
+body,h1,ul,h2,h3,ol,p,figure,div{
+	margin: 0;
+	padding: 0;
+}
+/*设置字体以及一些通用属性*/
+body{
+	background-color: #fff;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;
+}
+/*去除所有超链接的下划线*/
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: outside none none;
+}
+#header{
+	min-width: 1263px;
+	width: 100%;
+	height: 70px;
+	background-color: #333;
+}
+#header .center{
+	width: 1263px;
+	height: 70px;
+	/*上下为0左右为auto便会自动居中*/
+	margin: 0 auto;
+}
+/*Logo采用h1标签是为了引擎更好的抓取关键字，一个页面应该只有一个h1*/
+#header .logo{
+	width: 240px;
+	height: 70px;
+	background-image: url(../img/logo.png);
+	text-indent: -9999px;
+	float: left;
+}
+#header .link{
+	width: 650px;
+	height: 70px;
+	float: right;
+	/*设置li的垂直居中*/
+	line-height: 70px;
+	color: #eee;
+}
+/*设置元素在一行*/
+#header .link li{
+	float: left;
+	/*水平居中*/
+	text-align: center;
+	width: 120px;
+}
+/*设置标头超链接的样式*/
+#header .link>ul>li>a{
+	color: #eee;
+	display: block;
+}
+/*设置鼠标悬浮的效果*/
+#header .link>ul>li>a:hover, #header > section> ul > li.active a{
+	background-color: black;
+}
+/*用来隐藏一些元素*/
+.hide{
+	display: none;
+}
+
+/*设置底部的样式*/
+#footer{
+	height: 360px;
+	background-color: #222;
+}
+#footer .top{
+	height: 360px;
+	width: 1263px;
+	margin: 0 auto;
+}
+#footer .bottom{
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #777;
+	background-color:#000; 
+	/*给上边框增加一条线增加立体效果*/
+	border-top: 1px solid #444;
+}
+
+#footer .block{
+	width: 410px;
+	height: 280px;
+	display: inline-block;
+	text-align: left;
+	color: #ccc;
+	/*设置垂直居中*/
+	vertical-align: top;
+}
+#footer h2{
+	font-size: 24px;
+	font-weight: normal;
+	padding: 20px 0 0 20px;
+	position: relative;
+}
+#footer hr{
+	width: 90%;
+	border:1px dashed #233;
+
+}
+#footer ul{
+	margin: 0 0 0 16px;
+	width: 80%;
+	font-size: 18px;
+	color: #777;
+}

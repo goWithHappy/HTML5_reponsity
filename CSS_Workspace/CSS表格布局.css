@@ -1,0 +1,25 @@
+@charset=utf-8;
+
+body{
+	margin: 0;
+}
+
+table{
+	margin:0 atuo;
+	width: 100%;
+	border-spacing: 0;
+}
+.header{
+	height: 120px;
+	background-color: olive;
+}
+.aside{
+	width: 200px;
+	height: 500px;
+	background-color: purple;
+}
+.section{
+	width: 760px;
+	height: 500px;
+	background-color: maroon;
+}
